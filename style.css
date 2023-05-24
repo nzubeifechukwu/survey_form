@@ -1,0 +1,137 @@
+body {
+    background: #8080bf;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f3f3f3;
+}
+
+form {
+    background-color: #1b1b3f;
+    padding: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#title {
+    font-size: 2em;
+    padding-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#description {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+#title-description {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#name {
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    font-size: 0.9em;
+    width: 97%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+}
+
+#email {
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    font-size: 0.9em;
+    width: 97%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+}
+
+#number {
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    font-size: 0.9em;
+    width: 97%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+}
+
+#dropdown {
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    font-family: inherit
+}
+
+#sure {
+    margin-top: 0.5rem;
+}
+
+#maybe {
+    margin-top: 0.5rem;
+}
+
+#no {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#customer-service {
+    margin-top: 0.5rem;
+}
+
+#lighting {
+    margin-top: 0.5rem;
+}
+
+#vip-area {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    width: 98%;
+    padding-bottom: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9em;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    color: #f3f3f3;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+div {
+    display: block;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+@media (max-width: 920px) {
+    form {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
